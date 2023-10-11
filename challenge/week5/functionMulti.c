@@ -2,12 +2,13 @@
 
 long multiF(long value);
 
-void main()
+int main()
 {
-	printf("1부터		2까지의 합은 %d\n", multiF(2));
-	printf("1부터	3까지의 합은 %d\n", multiF(3));
-	printf("1부터 5까지의 합은 %d\n", multiF(5));
+	printf("1부터		2까지의 합은 %ld\n", multiF(2));
+	printf("1부터	3까지의 합은 %ld\n", multiF(3));
+	printf("1부터 5까지의 합은 %ld\n", multiF(5));
 	// 위의 문장들을 출력
+	return 0;
 }
 
 long multiF(long value) ///hapf()에 들어간 값을 value에 넣는다
